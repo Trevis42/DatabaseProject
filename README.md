@@ -5,5 +5,5 @@ This project involve using SQLite for the database back end and Java for the fro
 
 Future developement of this project would allow the owner a way to schedule game nights based on what games other users check off as "want to play." Also, integration to an online database for game info and purchase locations was planned.
 
-- Project idea proposed by me and accepted by my team
+- Project idea proposed by me and accepted by the team
 - GUI created/programmed by me
