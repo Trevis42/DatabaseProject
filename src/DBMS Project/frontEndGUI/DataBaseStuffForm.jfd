@@ -11,7 +11,7 @@ new FormModel {
 			"defaultCloseOperation": 3
 			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
 				"$horizontalGroup": "par l {comp tabbedPaneStuff::t::0:x}"
-				"$verticalGroup": "par l {comp tabbedPaneStuff::l::0:x}"
+				"$verticalGroup": "par l {comp tabbedPaneStuff::t::0:x}"
 			} ) {
 				name: "mainStuffPanel"
 				"background": new java.awt.Color( 102, 102, 102, 255 )
@@ -141,8 +141,8 @@ new FormModel {
 						"toolTipText": "Your wishlist"
 						"background": new java.awt.Color( 102, 102, 102, 255 )
 						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-							"$horizontalGroup": "par l {seq {comp btn_logout2:::p:173:p, space :p:62:p, comp lbl_WishlistOf:::p:111:p, space :::p, comp lbl_userNameWL::::206:x, space :::p}, comp scrollPane6::l::568:x}"
-							"$verticalGroup": "par l {seq {comp scrollPane6:::p:417:p, space :::p, par l {seq l {space :p:20:p, par b {comp lbl_WishlistOf::b:::x, comp lbl_userNameWL::b:::x}, space :p:23:p}, comp btn_logout2:::p:57:p}}}"
+							"$horizontalGroup": "par l {seq l {space :::p, comp btn_logout2:::p:184:p, space :p:52:p, comp lbl_WishlistOf:::p:111:p, space :::p, comp lbl_userNameWL::::195:x, space :::p}, comp scrollPane6::t::568:x}"
+							"$verticalGroup": "par l {seq t {comp scrollPane6:::p:420:p, space u:::p, par l {comp btn_logout2:::p:42:p, seq t {par b {comp lbl_WishlistOf::b:::x, comp lbl_userNameWL::b:::x}, space :12:12:p}}, space :::p}}"
 						} ) {
 							name: "searchInputPanel2"
 							"background": #Color0
@@ -218,7 +218,6 @@ new FormModel {
 								name: "btn_removeUser"
 								"text": "Remove"
 								"font": new java.awt.Font( "Tahoma", 1, 16 )
-								"background": &Color3 new java.awt.Color( 204, 204, 204, 255 )
 								addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btn_removeUserActionPerformed", true ) )
 							} )
 							add( new FormComponent( "javax.swing.JButton" ) {
@@ -231,7 +230,6 @@ new FormModel {
 								name: "btn_updateInfo"
 								"text": "Update User Info"
 								"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 0, false )
-								"background": #Color3
 								addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btn_updateInfoActionPerformed", true ) )
 							} )
 						} )
